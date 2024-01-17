@@ -1,0 +1,86 @@
+.ghcc {
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 700px;
+    padding: 100px 0 0 0;
+    background-image: url('../../assets/congr.png');
+    clip-path: circle(10, 20, 50, 0);
+    background-blend-mode: soft-light;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0b726f;
+  }
+  .ghcc button {
+    font-weight: 700;
+    color: #000;
+    background-color: rgb(27, 119, 128);
+    padding: 14px 48px;
+    font-size: 18px;
+  
+    margin-top: 25px;
+    border-radius: 0;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  @media (max-width: 1100px) {
+  
+    .ghcc img {
+      animation: updown 3s linear infinite;
+  
+      /* width: 300px */
+    }
+  
+  }
+  .ghcc h1 {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    display: block;
+    color: #f4f5f4;
+  }
+  
+  .ghcc p {
+    color: #f6f1f1;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+
+  
+  .ghcc img {
+    animation: updown 3s linear infinite;
+    height: 30px;
+  }
+
+.aboutghcc{
+    height: 400px;
+    width:100% ;
+    background-color: #0b726f;
+    margin-bottom: 50px;
+}
+
+.aboutghcc p{
+  margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+    
+}
+  .red{
+    background-color: red;
+    
+  }
+  .white{
+    background-color: #f4f5f4;
+  }
+
+  .sermons{
+    justify-content: center;
+  }
+  .gallery{
+    margin-bottom: 50px;
+  }
