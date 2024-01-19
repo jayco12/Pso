@@ -176,7 +176,6 @@ Besides GHCC, He also is a destiny coach.</p>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
         </section>
     )
 }
