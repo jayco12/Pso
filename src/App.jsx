@@ -8,6 +8,8 @@ import { About } from './components/Home/About';
 import { Contact } from './components/Home/Contact';
 import { Footer } from './components/Home/Footer';
 import Ministry  from './components/Ministry/home';
+import { Projects } from './components/Paraministry/Paraministry';
+import { Books } from './components/books';
 function App() {
   return (
     <>
@@ -18,6 +20,8 @@ function App() {
     <Route path="/" element={<Home/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/ministry" element={<Ministry/>} />
+    <Route path="/para" element={<Projects/>} />
+    <Route path="/books" element={<Books/>} />
 </Routes>
       <Contact/>
       <Footer/>

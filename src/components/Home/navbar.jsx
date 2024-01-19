@@ -30,7 +30,7 @@ const NavBar = () => {
       <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
         <Container fluid>
         <Navbar.Brand href="#">
-            <a href="#home">
+            <a href="/">
               <img src={logo} alt="logo" />
             </a>
           </Navbar.Brand>
@@ -63,6 +63,15 @@ const NavBar = () => {
                 }}
               >
                 Ministry
+              </Nav.Link>
+              <Nav.Link
+                className={activeLink === 'para' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => {
+                  setActiveLink('/para');
+                  navigate('/para');
+                }}
+              >
+               Paraministry
               </Nav.Link>
               <Nav.Link
                 className={activeLink === 'books' ? 'active navbar-link' : 'navbar-link'}

@@ -24,7 +24,7 @@ export const Ministry = () => {
                   <h1> Great House Christian Centre</h1>
                   <p>Pastor Segun is a prolific trainer, with a transformational leadership gift and the ability to replicate himself in his trainees. This is a skill he has developed and it is also a spiritual endowment for his Apostolic call.
                     <br /><br />
-                    He is also a thought-leader, promoting Spirituality and Christian Culture through his Youtube page Emmanuel Iren Live.
+                    He is also a thought-leader, promoting Spirituality and Christian Culture through his Youtube page Olusegun Oduyebo  Live.
                     <br /><br />
                     Besides GHCC, He also is a destiny coach. </p>
                 </div>
