@@ -32,12 +32,14 @@ export const Ddi = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <h1>DDI: Destiny Development Initiative</h1>
-                  <p>Pastor Segun is a prolific trainer, with a transformational leadership gift and the ability to replicate himself in his trainees. This is a skill he has developed and it is also a spiritual endowment for his Apostolic call.
-                    <br /><br />
-                    He is also a thought-leader, promoting Spirituality and Christian Culture through his Youtube page Olusegun Oduyebo  Live.
-                    <br /><br />
-                    Besides GHCC, He also is a destiny coach</p>
-                  
+                  <p>Destiny Development Initiative(DDI) is a Non-Governmental Organization that specializes in Human Capital Development and Organizational training and management. The organization is geared towards becoming one of the leading organizations in the social service space of African communities by creating, organizing, and providing resource materials, training, opportunities, service, environment, experience, and exposure that will help people develop needed skills and potential for effective and efficient living.
+
+Its central mode of operation is towards economic empowerment, education promotion, preventive and curative health for development, human rights and good governance strategies, sport and entertainment, ICT empowerment, and youth voluntarism and internship. 
+
+DDI through its subsidiaries DDI Consult Ltd., DDI Social Services, and DDI Micro Scheme has been able to make prominent social impacts such as educating and empowering youths, creating, organizing, and providing resource materials for training, providing opportunities and exposure that will help as many people as possible to develop needed skills and potentials for effective and efficient living, care, and support for vulnerable women and children, and providing sustainable and high quality financial and non-financial solutions with top-notch services for micro-entrepreneurs in rural communities to strengthen their economic conditions. 
+
+This has therefore helped to bring improvements to people's lives, thus, helping them in fulfilling their diverse dreams and aspirations.      
+                  </p>
                   <Button
                     variant="outline-light"
                     className={`waitlist-button ${activeLink === 'waitlist' ? 'active' : ''}`}

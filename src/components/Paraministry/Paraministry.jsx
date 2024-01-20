@@ -110,11 +110,13 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Pastor Segun is a prolific trainer, with a transformational leadership gift and the ability to replicate himself in his trainees. This is a skill he has developed and it is also a spiritual endowment for his Apostolic call.
+                                    <p>In line with the overall guiding mission, DDI operations also include the training and development of the upcoming generations of teenagers known as the Destiny Coach Network(DCN). DESTINY COACH NETWORK is a project aimed towards reaching out to teenagers both in school and out of school to help them brush their potential and acquire the necessary skills that will help them have an efficient and effective living. One of the prominent programs of this movement is the Teens Lead Program which is centered around raising young people to be leaders as well as giving them the mentorship and exposure that is needed for their future. 
 
-He is also a thought-leader, promoting Spirituality and Christian Culture through his Youtube page Olusegun Oduyebo Live.
+One of the prominent developmental programs is the organizational development training available to public institutions is spearheaded by the visioneer, Pastor Olusegun Oduyebo. His training is geared towards helping personnel remain informed and exposed to the insight, knowledge, and skills that will help enhance their effectiveness, personal development, and organizational management. For instance, the organization in partnership with the State Police Commands in Osun, Ogun, Oyo, etc.. has allowed him to engage in training of the officers within the states from the year 2013- till date as a part of his contributions to society to keep making his expertise in the area of organizational development available to public institutions. 
 
-Besides GHCC, He also is a destiny coach.</p>
+He has also conducted a series of trainings with principals of various schools across to state. 
+
+DDI over the years has been able to record a massive track record of successful social impact activities all over the state and beyond.</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
