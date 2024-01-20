@@ -30,7 +30,7 @@ export const Ddi = () => {
           <Col xs={12} md={6} xl={7} className="colm"  >
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
                   <h1>DDI: Destiny Development Initiative</h1>
                   <p>Destiny Development Initiative(DDI) is a Non-Governmental Organization that specializes in Human Capital Development and Organizational training and management. The organization is geared towards becoming one of the leading organizations in the social service space of African communities by creating, organizing, and providing resource materials, training, opportunities, service, environment, experience, and exposure that will help people develop needed skills and potential for effective and efficient living.
 
