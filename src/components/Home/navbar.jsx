@@ -45,17 +45,9 @@ const NavBar = () => {
                   navigate('/about');
                 }}
               >
-                About Us
+                About
               </Nav.Link>
-              <Nav.Link
-                className={activeLink === 'ministry' ? 'active navbar-link' : 'navbar-link'}
-                onClick={() => {
-                  setActiveLink('/ministry');
-                  navigate('/ministry');
-                }}
-              >
-                Ministry
-              </Nav.Link>
+            
               <Nav.Link
                 className={activeLink === 'para' ? 'active navbar-link' : 'navbar-link'}
                 onClick={() => {

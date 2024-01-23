@@ -1,3 +1,16 @@
+
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
 .ghcc {
   margin-top: 0;
   margin-bottom: 40px;
@@ -37,7 +50,7 @@
 
 .ghcc h1 {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-top: 200px;
@@ -48,7 +61,7 @@
 
 .ghcc p {
   color: #f6f1f1;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -75,7 +88,8 @@
 }
 
 .aboutghcc p {
-  margin-top: 120px;
+  font-size: 18px;
+  margin-top: 70px;
   text-align: center;
   justify-content: center;
 
@@ -133,7 +147,7 @@
 }
 
 .project p {
-  font-size: 13px;
+  font-size: 18px;
   color: #0a0a0a;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -162,7 +176,7 @@
   padding: 17px 0;
   color: #130707;
   width: 100%;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -244,7 +258,7 @@
 }
 
 .proj-txtx h4 {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -253,7 +267,7 @@
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.8px;
 }
 
@@ -278,7 +292,7 @@
   padding-bottom: 20px;
 }
 .books h2 {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 700;
   text-align: center;
   color: #0d0606;

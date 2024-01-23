@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-export const About = () => {
+export const Min = () => {
   return (
     <section className="aboutghcc" id="about">
       <Container>

@@ -1,4 +1,17 @@
 @import url(./components/Ministry/App.css);
+
+
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
 /************ Default Css ************/
 * {
   margin: 0;
@@ -317,7 +330,7 @@ position: relative;} */
 
 .banner p {
   color: #f6f1f1;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -382,7 +395,7 @@ position: relative;} */
 .about button {
   height: 40px;
   width: 100px;
-  font-size: 14px;
+  font-size: 18px;
   display: flex;
 }
 
@@ -437,7 +450,7 @@ position: relative;} */
 
 .ministry p {
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -503,7 +516,7 @@ position: relative;} */
 }
 /* DDI CSS */
 .ddi {
-  height: 500px;
+  height: 700px;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -515,11 +528,12 @@ position: relative;} */
   background-color: #e8f7f5;
 }
 .ddi p {
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
   text-align: center;
+  text-align: start;
   padding-left: 80px;
   padding-right: 80px;
   justify-content: center;
@@ -538,7 +552,7 @@ position: relative;} */
 }
 @media (min-width: 950px)and (max-width: 1200px) {
   .ddi {
-    height: 1000px;
+    height: 1200px;
   }
   .ddi p {
     margin-top: 60px;
@@ -553,12 +567,12 @@ position: relative;} */
 }
 @media (min-width: 760px)and (max-width: 950px) {
   .ddi {
-    height: 1500px;
+    height: 1700px;
   }
 }
 @media (min-width: 500px)and (max-width: 760px) {
   .ddi {
-    height: 1200px;
+    height: 1400px;
   }
 }
 @media (min-width: 0px)and (max-width: 500px) {
@@ -657,7 +671,7 @@ text-align: left;
 
 .sermons p {
   color: #090909;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -692,10 +706,10 @@ text-align: left;
 }
 /* CONTACT CSS */
 .contact {
-  background-color: rgb(7, 84, 91);
+  background-color: #e8f7f5;
   padding: 60px 0 40px 0;
   border-radius: 20px;
-  color: #f5f1f1;
+  color: #100e0e;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 20px;
@@ -731,15 +745,14 @@ text-align: left;
 }
 
 .contactcard h1 {
-  font-size: 20px;
-  font-weight: 700px;
+  font-size: 18px;
   display: block;
   color: #050505;
   text-align: center;
 }
 
 .contactcard h2 {
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -840,13 +853,15 @@ text-align: left;
 .footer h4 {
   margin-top: 20px;
   text-align: center;
-  font-size: 13px;
+  font-size: 18px;
+
 }
 
 .footer p {
   text-align: center;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 18px;
+
   color: #070707;
   letter-spacing: 0.8px;
   line-height: 1.5em;

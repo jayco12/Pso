@@ -9,7 +9,7 @@ function Home() {
     <div className='h-96 lg:h-screen w-full '>
       <Banner/>
      <About/>
-     <Ministry/>
+     {/* <Ministry/> */}
      <Ddi/>
      <Sermons/>
     </div>

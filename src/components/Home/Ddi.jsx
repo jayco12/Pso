@@ -36,9 +36,10 @@ export const Ddi = () => {
 
 Its central mode of operation is towards economic empowerment, education promotion, preventive and curative health for development, human rights and good governance strategies, sport and entertainment, ICT empowerment, and youth voluntarism and internship. 
 
-DDI through its subsidiaries DDI Consult Ltd., DDI Social Services, and DDI Micro Scheme has been able to make prominent social impacts such as educating and empowering youths, creating, organizing, and providing resource materials for training, providing opportunities and exposure that will help as many people as possible to develop needed skills and potentials for effective and efficient living, care, and support for vulnerable women and children, and providing sustainable and high quality financial and non-financial solutions with top-notch services for micro-entrepreneurs in rural communities to strengthen their economic conditions. 
+{/* DDI through its subsidiaries DDI Consult Ltd., DDI Social Services, and DDI Micro Scheme has been able to make prominent social impacts such as educating and empowering youths, creating, organizing, and providing resource materials for training, providing opportunities and exposure that will help as many people as possible to develop needed skills and potentials for effective and efficient living, care, and support for vulnerable women and children, and providing sustainable and high quality financial and non-financial solutions with top-notch services for micro-entrepreneurs in rural communities to strengthen their economic conditions. 
 
 This has therefore helped to bring improvements to people's lives, thus, helping them in fulfilling their diverse dreams and aspirations.      
+                  */}
                   </p>
                   <Button
                     variant="outline-light"
